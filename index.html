@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nigar Safarova - Front-end Developer</title>
+    <title>Steven MECHRAFI - Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -91,7 +91,7 @@
                 <div class="flex items-center justify-between h-16">
                     <div class="flex items-center">
                         <h1 class="text-neutral-50 font-sora text-xl font-bold">
-                            Nigar Safarova
+                            Portfolio
                         </h1>
                     </div>
                     <div class="lg:hidden flex">
@@ -105,21 +105,21 @@
                         <a x-on:click="scrollToSection('hero')" 
                            class="cursor-pointer transition-colors duration-200" 
                            x-bind:class="currentSection === 'hero' ? 'text-violet-300' : 'text-neutral-100 hover:text-violet-300'">
-                            Home
+                            Accueil
                         </a>
                         <a x-on:click="scrollToSection('projects')" 
                            class="cursor-pointer transition-colors duration-200" 
                            x-bind:class="currentSection === 'projects' ? 'text-violet-300' : 'text-neutral-100 hover:text-violet-300'">
-                            Projects
+                            Projets
                         </a>
                         <a x-on:click="scrollToSection('about')" 
                            class="cursor-pointer transition-colors duration-200" 
                            x-bind:class="currentSection === 'about' ? 'text-violet-300' : 'text-neutral-100 hover:text-violet-300'">
-                            About
+                            À propos
                         </a>
                         <button x-on:click="scrollToSection('contact')" 
                                 class="bg-violet-200 text-neutral-900 px-4 py-2 rounded font-bold text-sm uppercase tracking-wide hover:bg-violet-300 transition-colors duration-200">
-                            Get in touch
+                            Contact
                         </button>
                     </div>
                 </div>
@@ -128,16 +128,16 @@
                      class="lg:hidden bg-neutral-900 border-t border-neutral-600 py-4">
                     <div class="flex flex-col gap-4 px-4">
                         <a x-on:click="scrollToSection('hero')" class="text-neutral-100 hover:text-violet-300 cursor-pointer transition-colors duration-200">
-                            Home
+                            Accueil
                         </a>
                         <a x-on:click="scrollToSection('projects')" class="text-neutral-100 hover:text-violet-300 cursor-pointer transition-colors duration-200">
-                            Projects
+                            Projets
                         </a>
                         <a x-on:click="scrollToSection('about')" class="text-neutral-100 hover:text-violet-300 cursor-pointer transition-colors duration-200">
-                            About
+                            À propos
                         </a>
                         <button x-on:click="scrollToSection('contact')" class="bg-violet-200 text-neutral-900 px-4 py-2 rounded font-bold text-sm uppercase tracking-wide w-fit">
-                            Get in touch
+                            Contact
                         </button>
                     </div>
                 </div>
@@ -151,14 +151,15 @@
                 <div class="max-w-6xl w-full mx-auto">
                     <div class="max-w-3xl">
                         <h1 class="text-neutral-50 font-sora text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight mb-6">
-                            Hi, I'm Nigar Safarova.
+                            Steven MECHRAFI
                         </h1>
                         <p class="text-violet-300 font-sora text-xl sm:text-2xl lg:text-3xl font-bold leading-relaxed tracking-tight mb-6">
-                            Front-end Developer
+                            EFREI 
                         </p>
                         <p class="text-neutral-100 font-inter text-lg sm:text-xl lg:text-2xl leading-relaxed tracking-tight mb-12 max-w-3xl">
-                            Lorem ipsum dolor sit amet consectetur. Ligula nunc non commodo
-                            scelerisque gravida.
+                            - Etudiant à l'EFREI en BTS SIO orienté Systèmes & Réseaux (SISR).
+                        <br>
+                        <br>- Technicien Support & Déploiement N2 à CONFORAMA FRANCE (Marne-la-Vallée)<br/>
                         </p>
                         <div class="flex items-center gap-6 flex-col sm:flex-row sm:items-start">
                             <div class="flex items-center gap-4">
@@ -176,10 +177,10 @@
                             <div class="flex items-center gap-4 flex-col sm:flex-row sm:items-start">
                                 <button x-on:click="scrollToSection('contact')" 
                                         class="border border-neutral-500 text-neutral-50 px-4 py-2 rounded font-bold text-sm uppercase tracking-wide hover:bg-neutral-600 transition-colors duration-200">
-                                    Get in touch
+                                    Contact
                                 </button>
                                 <a href="#" class="border border-neutral-500 text-neutral-50 px-4 py-2 rounded font-bold text-sm uppercase tracking-wide hover:bg-neutral-600 transition-colors duration-200">
-                                    Resume
+                                    Accueil
                                 </a>
                             </div>
                         </div>
@@ -203,7 +204,7 @@
                 <div class="max-w-5xl mx-auto">
                     <div class="text-center mb-16">
                         <h2 class="text-neutral-50 font-sora text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
-                            Projects
+                            Projets
                         </h2>
                     </div>
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -222,10 +223,10 @@
                                     </div>
                                     <div class="flex gap-4">
                                         <a :href="project.codeUrl" class="text-violet-300 hover:text-violet-200 font-medium transition-colors duration-200">
-                                            View Code
+                                            ..
                                         </a>
                                         <a :href="project.liveUrl" class="text-violet-300 hover:text-violet-200 font-medium transition-colors duration-200">
-                                            Live Demo
+                                           ..
                                         </a>
                                     </div>
                                 </div>
@@ -241,23 +242,15 @@
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                         <div class="order-2 lg:order-1">
                             <h2 class="text-neutral-50 font-sora text-2xl sm:text-3xl font-bold leading-relaxed tracking-tight mb-6">
-                                Hi there!
+                                Blablabla
                             </h2>
                             <div class="mb-6">
                                 <p class="text-neutral-200 font-inter text-lg sm:text-xl lg:text-2xl leading-relaxed tracking-tight mb-6">
-                                    Lorem ipsum dolor sit amet consectetur. Scelerisque cursus
-                                    neque pellentesque eu tempor leo est tortor praesent.
-                                    Adipiscing euismod faucibus proin odio eget aliquet aliquet.
-                                    Pellentesque sagittis quis dui ut. Non posuere convallis
-                                    ullamcorper quam justo.
+                                    En cours !
                                 </p>
                                 <div x-show="aboutExpanded" x-transition>
                                     <p class="text-neutral-200 font-inter text-lg sm:text-xl lg:text-2xl leading-relaxed tracking-tight">
-                                        Lorem ipsum dolor sit amet consectetur. Scelerisque cursus
-                                        neque pellentesque eu tempor leo est tortor praesent.
-                                        Adipiscing euismod faucibus proin odio eget aliquet
-                                        aliquet. Pellentesque sagittis quis dui ut. Non posuere
-                                        convallis ullamcorper quam justo.
+                                        .
                                     </p>
                                 </div>
                             </div>
@@ -270,7 +263,7 @@
                             <div class="w-full max-w-sm mx-auto lg:ml-auto">
                                 <div class="aspect-[3/4] bg-violet-300 rounded overflow-hidden">
                                     <img src="https://placehold.co/369x500/C4B5FD/8B5CF6?text=Profile+Photo" 
-                                         alt="Nigar Safarova" 
+                                         alt="Steven" 
                                          class="w-full h-full object-cover rounded">
                                 </div>
                             </div>
@@ -284,13 +277,13 @@
                 <div class="max-w-4xl mx-auto">
                     <div class="mb-12">
                         <h2 class="text-neutral-50 font-sora text-2xl sm:text-3xl font-bold leading-relaxed tracking-wide mb-6">
-                            Let's connect
+                            Restons connectés !
                         </h2>
                         <p class="text-neutral-100 font-inter text-lg leading-relaxed mb-8">
-                            Shoot me email to chat about my work or just like to say hey 👋
+                            Email | Github | LinkedIn 👋
                         </p>
                         <div class="flex items-center gap-4 mb-8">
-                            <a href="mailto:hello@nigarsafarova.com" 
+                            <a href="mailto:test@steven.com" 
                                class="bg-neutral-50 p-2.5 rounded hover:bg-neutral-200 transition-colors duration-200">
                                 <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none">
                                     <path d="M19 4H5C4.20435 4 3.44129 4.31607 2.87868 4.87868C2.31607 5.44129 2 6.20435 2 7V17C2 17.7956 2.31607 18.5587 2.87868 19.1213C3.44129 19.6839 4.20435 20 5 20H19C19.7956 20 20.5587 19.6839 21.1213 19.1213C21.6839 18.5587 22 17.7956 22 17V7C22 6.20435 21.6839 5.44129 21.1213 4.87868C20.5587 4.31607 19.7956 4 19 4ZM18.59 6L12.71 11.88C12.617 11.9737 12.5064 12.0481 12.3846 12.0989C12.2627 12.1497 12.132 12.1758 12 12.1758C11.868 12.1758 11.7373 12.1497 11.6154 12.0989C11.4936 12.0481 11.383 11.9737 11.29 11.88L5.41 6H18.59ZM20 17C20 17.2652 19.8946 17.5196 19.7071 17.7071C19.5196 17.8946 19.2652 18 19 18H5C4.73478 18 4.48043 17.8946 4.29289 17.7071C4.10536 17.5196 4 17.2652 4 17V7.41L9.88 13.29C10.4425 13.8518 11.205 14.1674 12 14.1674C12.795 14.1674 13.5575 13.8518 14.12 13.29L20 7.41V17Z" fill="#171717"></path>
