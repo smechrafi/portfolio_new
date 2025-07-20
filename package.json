@@ -1,0 +1,13 @@
+{
+  "name": "static-html-project",
+  "version": "1.0.0",
+  "description": "Static HTML project",
+    "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 5500",
+    "start": "python3 -m http.server 5500"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
